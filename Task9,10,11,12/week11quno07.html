@@ -1,0 +1,54 @@
+<html>
+<head>
+	<style>
+    .odd{background-color: lightblue;} 
+    .even{background-color: #95B9C7;} 
+</style>
+<script type="text/javascript">
+    function alternate(id){ 
+  if(document.getElementsByTagName){  
+    var table = document.getElementById(id);   
+    var rows = table.getElementsByTagName("tr");   
+    for(i = 0; i < rows.length; i++){           
+ //manipulate rows 
+      if(i % 2 == 0){ 
+       rows[i].className = "even"; 
+      }else{ 
+       rows[i].className = "odd"; 
+      }       
+    } 
+  } 
+}
+</script>
+</head>
+<body onload="alternate('thetable')"> 
+	<table id="thetable" width="600" >
+    <tr>
+        <th width="200" height="50">S.N.</th>
+        <th width="200">Name</th>
+        <th width="200">Image</th>
+    </tr>
+    <tr> 
+        <td>1</td>
+        <td>Hotel</td>
+        <td><img src="hotel.jpg" height="100" width="300"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Suit</td>
+        <td><img src="hotel2.jpg" height="100" width="300"></td>
+    </tr>
+    <tr> 
+        <td>3</td>
+        <td>Lake</td>
+        <td><img src="water.jpg" height="100" width="300"></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Ireland</td>
+        <td><img src="land.jpg" height="100" width="300"></td>
+    </tr>
+</table>
+</body>
+</html>
+        

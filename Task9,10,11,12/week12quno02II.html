@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Button Date and Time</title>
+<script type="text/javascript"> 
+function show_now() { 
+var my_time = new Date();
+document.getElementById('display').innerHTML=my_time
+}
+</script>
+
+</head>
+<body>
+
+<input type=button value="Show Time and date" onclick="show_now();">
+<div id=display></div>
+<div id=display2></div>
+</body>
+
+</html>

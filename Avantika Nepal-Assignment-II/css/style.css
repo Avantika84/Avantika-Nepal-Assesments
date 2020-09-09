@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+   padding: 5px 20px;
+   border: 1px solid transparent; 
+   transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    padding: 30px 20px;
+    min-height:100%;
+   position:relative;
+}
+.slideshow-container {
+    top: 15%;
+    max-width: 1000px;
+    max-height: 350px;
+    position: absolute;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    transition: 0.6s ease;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 1;
+}
+  /* Caption text */
+.text {
+    color: solid black;
+    font-size: 90px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 200px;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.link{
+    position: absolute;
+    top: 72%;
+    left: 45%;
+    font-size: 30px;
+}
+.link:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.link:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link2{
+    position: absolute;
+    top: 67%;
+    left: 45%;
+    font-size: 30px;
+    color: white;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0E4D92;
+    color: #fff;
+    padding: 20px;
+    position:absolute;
+   bottom:0;
+   width:1140px;
+   height:120px;
+   margin-left: auto;
+   margin-right: auto;
+}
